@@ -42,3 +42,5 @@ Add LiquidPager to your xml and use it like you would ViewPager
         android:layout_height="match_parent" />
         
 ```
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
