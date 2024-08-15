@@ -12,13 +12,23 @@ A library that allows for a beautiful liquid swipe effect in your Android applic
 
 ## Installation
 
+Step 1. Add the JitPack repository to your build file 
+  ```
+  allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  ```
+
 Add the following dependency to your `build.gradle` file:
 
 ```groovy
 dependencies {
     implementation 'com.github.samyak2403:liquid-swipe-android:1.0'
 }
-
+```
 
 ## Usage
 
