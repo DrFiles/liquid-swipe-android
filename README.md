@@ -18,3 +18,17 @@ Add the following dependency to your `build.gradle` file:
 dependencies {
     implementation 'com.github.samyak2403:liquid-swipe-android:1.0'
 }
+
+
+## Usage
+
+Add LiquidPager to your xml and use it like you would ViewPager
+
+```
+
+    <com.samyak2403.liquid_swipe.LiquidPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        
+```
